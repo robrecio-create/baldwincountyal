@@ -1,12 +1,11 @@
 export const towns = [
-  { name: 'Gulf Shores', slug: 'gulf-shores', businesses: 0 },
-  { name: 'Orange Beach', slug: 'orange-beach', businesses: 0 },
   { name: 'Fairhope', slug: 'fairhope', businesses: 0 },
   { name: 'Daphne', slug: 'daphne', businesses: 0 },
-  { name: 'Spanish Fort', slug: 'spanish-fort', businesses: 0 },
+  { name: 'Gulf Shores', slug: 'gulf-shores', businesses: 0 },
+  { name: 'Orange Beach', slug: 'orange-beach', businesses: 0 },
   { name: 'Foley', slug: 'foley', businesses: 0 },
+  { name: 'Spanish Fort', slug: 'spanish-fort', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
